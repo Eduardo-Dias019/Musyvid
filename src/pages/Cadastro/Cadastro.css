@@ -1,0 +1,69 @@
+body{
+    background-image: url(../../assets/home-bg.png);
+
+}
+
+form{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 600px;
+    width: 600px;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    background-color: rgba(146, 146, 146, 0.068);
+    box-shadow: black 0px 0px 15px;
+}
+
+
+h4{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+h5{
+    margin-top: -5px;
+    color: rgb(255, 88, 88);
+}
+
+#form-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    text-align: start;
+}
+
+#eye-on{
+    position: relative;
+    top: -37%;
+    left: 85%;
+    color: white;
+}
+
+#text-top{
+    text-align: center;
+    width: 230px;
+}
+
+#button-sig-in{
+    margin-top: 20px;
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+    border: 2px solid rgb(0, 205, 255);
+    cursor: pointer;
+    font-weight: 800;
+    background-color: #404040;
+    color: white;
+}
+
+#button-sig-in:hover{
+    background-color: #202020;
+}
